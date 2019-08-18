@@ -12,8 +12,8 @@ data class OnlineActivityBean(
 ) : RedrockApiStatus()
 
 data class OnlineActivityText(
-    val QR: String,
+    var QR: String,
     val message: String,
     val name: String,
-    val photo: String
+    var photo: String
 )
