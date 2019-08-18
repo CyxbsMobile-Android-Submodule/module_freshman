@@ -72,7 +72,7 @@ class MoreActivity : BaseActivity(), MoreDialogListener {
         adapter.setOnItemClickListener(object : OnItemClickListener {
             override fun onItemClick(position: Int) {
                 when (position) {
-                    0 -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://redrock.team/aboutus")))
+                    0 -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://web.redrock.team/welcome2019/mobile/")))
                     1 -> {
                         ARouter.getInstance().build(MAIN_MAIN).navigation()
                         EventBus.getDefault().apply {
