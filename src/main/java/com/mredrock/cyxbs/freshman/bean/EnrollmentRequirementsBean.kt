@@ -1,6 +1,7 @@
 package com.mredrock.cyxbs.freshman.bean
 
 import com.mredrock.cyxbs.common.bean.RedrockApiStatus
+import java.io.Serializable
 
 /**
  * Create by yuanbing
@@ -9,14 +10,14 @@ import com.mredrock.cyxbs.common.bean.RedrockApiStatus
 data class EnrollmentRequirementsBean(
     val code: Int,
     val text: List<EnrollmentRequirementsText>
-) : RedrockApiStatus()
+) : RedrockApiStatus(), Serializable
 
 data class EnrollmentRequirementsText(
         val `data`: List<EnrollmentRequirementsData>,
         val title: String
-)
+):Serializable
 
 data class EnrollmentRequirementsData(
     val detail: String,
     val name: String
-)
+):Serializable

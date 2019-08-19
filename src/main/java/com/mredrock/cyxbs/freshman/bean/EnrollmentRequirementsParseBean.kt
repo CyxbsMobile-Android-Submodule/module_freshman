@@ -1,6 +1,7 @@
 package com.mredrock.cyxbs.freshman.bean
 
 import com.mredrock.cyxbs.freshman.interfaces.ParseBean
+import java.io.Serializable
 
 /**
  * Create by yuanbing
@@ -16,10 +17,10 @@ const val STATUS_TRUE_MUST = 2
 
 data class EnrollmentRequirementsTitleBean(
         val title: String
-) : ParseBean
+) : ParseBean, Serializable
 
 data class EnrollmentRequirementsItemBean(
         val name: String,
         val detail: String,
         var status: Int
-) : ParseBean
+) : ParseBean,Serializable

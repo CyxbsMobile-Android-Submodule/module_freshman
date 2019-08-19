@@ -1,6 +1,7 @@
 package com.mredrock.cyxbs.freshman.bean
 
 import com.mredrock.cyxbs.common.bean.RedrockApiStatus
+import java.io.Serializable
 
 /**
  * Create by yuanbing
@@ -9,15 +10,15 @@ import com.mredrock.cyxbs.common.bean.RedrockApiStatus
 data class DormitoryAndCanteenBean(
     val code: Int,
     val text: List<DormitoryAndCanteenText>
-) : RedrockApiStatus()
+) : RedrockApiStatus(), Serializable
 
 data class DormitoryAndCanteenText(
         val message: List<DormitoryAndCanteenMessage>,
         val title: String
-)
+):Serializable
 
 data class DormitoryAndCanteenMessage(
     var detail: String,
     val name: String,
     var photo: List<String>
-)
+):Serializable

@@ -1,6 +1,7 @@
 package com.mredrock.cyxbs.freshman.bean
 
 import com.mredrock.cyxbs.common.bean.RedrockApiStatus
+import java.io.Serializable
 
 /**
  * Create by yuanbing
@@ -9,9 +10,9 @@ import com.mredrock.cyxbs.common.bean.RedrockApiStatus
 data class FellowTownsmanGroupBean(
     val code: Int,
     val text: List<FellowTownsmanGroupText>
-) : RedrockApiStatus()
+) : RedrockApiStatus(), Serializable
 
 data class FellowTownsmanGroupText(
     val `data`: String,
     val name: String
-)
+):Serializable

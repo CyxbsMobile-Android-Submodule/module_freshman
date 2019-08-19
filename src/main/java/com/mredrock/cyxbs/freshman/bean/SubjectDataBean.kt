@@ -1,6 +1,7 @@
 package com.mredrock.cyxbs.freshman.bean
 
 import com.mredrock.cyxbs.common.bean.RedrockApiStatus
+import java.io.Serializable
 
 /**
  * Create by yuanbing
@@ -10,14 +11,14 @@ data class SubjectDataBean(
         val code: Int,
         val text: List<SubjectDataText>,
         val title: String
-) : RedrockApiStatus()
+) : RedrockApiStatus(), Serializable
 
 data class SubjectDataText(
         val message: List<SubjectDataMessage>,
         val name: String
-)
+):Serializable
 
 data class SubjectDataMessage(
     val `data`: String,
     val subject: String
-)
+):Serializable

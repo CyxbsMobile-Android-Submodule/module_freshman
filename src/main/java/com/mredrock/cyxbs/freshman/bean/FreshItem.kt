@@ -1,5 +1,7 @@
 package com.mredrock.cyxbs.freshman.bean
 
+import java.io.Serializable
+
 sealed class FreshItem {
     abstract val id: Int
     data class TextItem(val text: FreshTextItem): FreshItem() {
@@ -13,4 +15,4 @@ sealed class FreshItem {
     }
 
 }
-data class FreshTextItem(val title: String, val discript: String)
+data class FreshTextItem(val title: String, val discript: String): Serializable
