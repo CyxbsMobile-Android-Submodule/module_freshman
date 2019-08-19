@@ -82,7 +82,7 @@ class FreshAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return data.size + 2;
+        return data.size + 1
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
@@ -103,7 +103,7 @@ class FreshAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun getItemViewType(position: Int): Int {
         return when (position) {
             0 -> ITEM_VIEW_TYPE_HEADER
-            8 -> ITEM_VIEW_TYPE_FOOTER
+            //8 -> ITEM_VIEW_TYPE_FOOTER
             else -> ITEM_VIEW_TYPE_ITEM
         }
     }
