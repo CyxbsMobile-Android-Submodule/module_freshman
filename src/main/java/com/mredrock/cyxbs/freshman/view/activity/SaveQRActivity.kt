@@ -10,6 +10,7 @@ import android.view.GestureDetector
 import android.view.MotionEvent
 import com.mredrock.cyxbs.common.utils.extensions.doPermissionAction
 import com.mredrock.cyxbs.common.utils.extensions.setImageFromUrl
+import com.mredrock.cyxbs.common.utils.extensions.toast
 import com.mredrock.cyxbs.freshman.R
 import com.mredrock.cyxbs.freshman.base.BaseActivity
 import com.mredrock.cyxbs.freshman.config.INTENT_MESSAGE
@@ -19,7 +20,6 @@ import com.mredrock.cyxbs.freshman.interfaces.presenter.IActivitySaveQRPresenter
 import com.mredrock.cyxbs.freshman.interfaces.view.IActivitySaveQRView
 import com.mredrock.cyxbs.freshman.presenter.ActivitySaveQRPresenter
 import kotlinx.android.synthetic.main.freshman_activity_save_qr.*
-import org.jetbrains.anko.toast
 import java.io.File
 
 /**
