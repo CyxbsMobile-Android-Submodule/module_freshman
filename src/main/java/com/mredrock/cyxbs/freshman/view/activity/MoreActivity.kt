@@ -88,7 +88,7 @@ class MoreActivity : BaseActivity(), MoreDialogListener {
     }
 
     private fun showDialog() {
-        val dialogFragment = MoreDialogFragment()
+        val dialogFragment = MoreDialogFragment(this)
         dialogFragment.show(supportFragmentManager, "more_dialog")
     }
 

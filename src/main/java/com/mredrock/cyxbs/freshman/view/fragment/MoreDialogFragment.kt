@@ -1,6 +1,5 @@
 package com.mredrock.cyxbs.freshman.view.fragment
 
-import android.app.Activity
 import android.app.Dialog
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,9 +11,8 @@ import com.mredrock.cyxbs.freshman.R
  * Create by roger
  * on 2019/8/6
  */
-class MoreDialogFragment : DialogFragment() {
+class MoreDialogFragment(private val mListener: MoreDialogListener) : DialogFragment() {
 
-    private lateinit var mListener: MoreDialogListener
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val builder: AlertDialog.Builder = AlertDialog.Builder(activity!!)
         val inflater: LayoutInflater = activity!!.layoutInflater
@@ -29,11 +27,6 @@ class MoreDialogFragment : DialogFragment() {
 
     }
 
-    override fun onAttach(activity: Activity?) {
-        super.onAttach(activity)
-        mListener = activity as MoreDialogListener
-
-    }
 }
 
 interface MoreDialogListener {
