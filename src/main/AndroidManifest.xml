@@ -26,7 +26,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".view.activity.CampusMapActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"></activity>
         <activity
