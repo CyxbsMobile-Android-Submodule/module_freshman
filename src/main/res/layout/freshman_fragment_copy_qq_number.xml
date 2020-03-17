@@ -41,8 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/view_copy_qq_number_divider"
-        android:orientation="horizontal"
-        android:id="@+id/ll_copy_qq_number">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="0dp"

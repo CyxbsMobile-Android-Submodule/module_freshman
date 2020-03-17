@@ -37,9 +37,5 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Test" parent="ThemeOverlay.AppCompat.Dark.ActionBar" tools:ignore="ResourceName">
-    </style>
-
-
 
 </resources>

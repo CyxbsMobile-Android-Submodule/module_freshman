@@ -26,7 +26,6 @@
 
 
         <ImageView
-            android:id="@+id/envelop_iv"
             android:layout_width="140dp"
             android:layout_height="50dp"
             android:scaleType="fitXY"
