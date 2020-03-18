@@ -2,10 +2,6 @@ package com.mredrock.cyxbs.freshman.view.activity
 
 import android.app.Activity
 import android.os.Bundle
-import android.view.Gravity
-import android.view.ViewGroup
-import android.widget.TextView
-import androidx.appcompat.widget.Toolbar
 import com.mredrock.cyxbs.freshman.R
 import com.mredrock.cyxbs.freshman.base.BaseActivity
 import com.mredrock.cyxbs.freshman.interfaces.model.IActivityAddMemorandumBookModel
@@ -13,10 +9,7 @@ import com.mredrock.cyxbs.freshman.interfaces.presenter.IActivityAddMemorandumBo
 import com.mredrock.cyxbs.freshman.interfaces.view.IActivityAddMemorandumBookView
 import com.mredrock.cyxbs.freshman.presenter.ActivityAddMemorandumBookPresenter
 import kotlinx.android.synthetic.main.freshman_activity_add_memorandum_book.*
-import kotlinx.android.synthetic.main.freshman_activity_add_memorandum_book.view.*
 import kotlinx.android.synthetic.main.freshman_toolbar.*
-import org.jetbrains.anko.px2sp
-import org.jetbrains.anko.textColor
 
 /**
  * Create by yuanbing

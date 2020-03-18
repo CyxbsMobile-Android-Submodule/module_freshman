@@ -5,31 +5,22 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
-import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
-import com.github.chrisbanes.photoview.PhotoView
 import com.mredrock.cyxbs.common.BaseApp
-import com.mredrock.cyxbs.common.component.BasePagerAdapter
 import com.mredrock.cyxbs.common.component.PhotoViewerActivity
-import com.mredrock.cyxbs.common.utils.LogUtils
-import com.mredrock.cyxbs.common.utils.encrypt.md5Encoding
 import com.mredrock.cyxbs.common.utils.extensions.doPermissionAction
 import com.mredrock.cyxbs.freshman.R
 import com.mredrock.cyxbs.freshman.view.widget.saveImage
 import org.jetbrains.anko.find
 import org.jetbrains.anko.startActivity
-import java.io.File
-import java.io.FileOutputStream
-import java.util.*
 
 /**
  * Create by roger

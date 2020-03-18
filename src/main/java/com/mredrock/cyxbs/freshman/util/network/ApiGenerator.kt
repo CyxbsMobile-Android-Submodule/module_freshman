@@ -4,20 +4,17 @@ import android.content.Context
 import android.net.ConnectivityManager
 import com.mredrock.cyxbs.common.BaseApp
 import com.mredrock.cyxbs.common.network.converter.QualifiedTypeConverterFactory
-import com.mredrock.cyxbs.common.utils.encrypt.md5Encoding
-import com.mredrock.cyxbs.common.utils.extensions.editor
-import com.mredrock.cyxbs.common.utils.extensions.sharedPreferences
 import com.mredrock.cyxbs.freshman.BuildConfig
 import com.mredrock.cyxbs.freshman.config.API_BASE_URL
-import com.mredrock.cyxbs.freshman.config.XML_OKHTTP_CACHE
-import okhttp3.*
+import okhttp3.Cache
+import okhttp3.CacheControl
+import okhttp3.OkHttpClient
+import okhttp3.Response
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.converter.simplexml.SimpleXmlConverterFactory
-import java.lang.Exception
-import java.util.concurrent.ExecutionException
 import java.util.concurrent.TimeUnit
 
 /**

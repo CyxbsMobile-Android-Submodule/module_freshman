@@ -1,6 +1,5 @@
 package com.mredrock.cyxbs.freshman.presenter
 
-import com.mredrock.cyxbs.common.utils.LogUtils
 import com.mredrock.cyxbs.freshman.base.BasePresenter
 import com.mredrock.cyxbs.freshman.bean.BusRoute
 import com.mredrock.cyxbs.freshman.interfaces.model.Callback

@@ -1,7 +1,6 @@
 package com.mredrock.cyxbs.freshman.interfaces.presenter
 
 import com.mredrock.cyxbs.freshman.base.IBasePresenter
-import com.mredrock.cyxbs.freshman.bean.Photo
 import com.mredrock.cyxbs.freshman.bean.Scenery
 import com.mredrock.cyxbs.freshman.interfaces.model.IFragmentSceneryModel
 import com.mredrock.cyxbs.freshman.interfaces.view.IFragmentSceneryView

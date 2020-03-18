@@ -9,18 +9,14 @@ import android.graphics.Bitmap
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.viewpager.widget.ViewPager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
-import com.github.chrisbanes.photoview.PhotoView
 import com.mredrock.cyxbs.common.BaseApp.Companion.context
-import com.mredrock.cyxbs.common.component.BasePagerAdapter
 import com.mredrock.cyxbs.common.component.PhotoViewerActivity
 import com.mredrock.cyxbs.common.utils.extensions.doPermissionAction
 import com.mredrock.cyxbs.freshman.R
 import org.jetbrains.anko.find
-import org.jetbrains.anko.sdk27.coroutines.onLongClick
 import org.jetbrains.anko.startActivity
 
 /**

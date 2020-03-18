@@ -6,8 +6,6 @@ import android.content.DialogInterface
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
-import com.mredrock.cyxbs.common.BaseApp
-import com.mredrock.cyxbs.common.utils.LogUtils
 import com.mredrock.cyxbs.freshman.R
 import com.mredrock.cyxbs.freshman.view.widget.EnvelopViewGroup
 import org.jetbrains.anko.find

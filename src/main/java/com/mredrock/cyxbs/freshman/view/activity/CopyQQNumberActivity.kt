@@ -1,12 +1,7 @@
 package com.mredrock.cyxbs.freshman.view.activity
 
-import android.annotation.SuppressLint
-import android.content.ClipData
-import android.content.ClipboardManager
-import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 import com.mredrock.cyxbs.common.ui.BaseActivity
 import com.mredrock.cyxbs.freshman.R
 import com.mredrock.cyxbs.freshman.config.BUNDLE_DATA
@@ -17,7 +12,6 @@ import com.mredrock.cyxbs.freshman.util.event.OnCopyQQNumberSuccessEvent
 import com.mredrock.cyxbs.freshman.util.event.SuccessViewFinishEvent
 import com.mredrock.cyxbs.freshman.view.fragment.CopyQQNumberFragment
 import com.mredrock.cyxbs.freshman.view.fragment.CopyQQNumberSuccessFragment
-import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 

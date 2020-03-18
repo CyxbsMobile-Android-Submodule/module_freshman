@@ -3,7 +3,6 @@ package com.mredrock.cyxbs.freshman.view.fragment
 import android.os.Bundle
 import android.view.View
 import android.widget.FrameLayout
-import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 import com.mredrock.cyxbs.common.utils.extensions.gone

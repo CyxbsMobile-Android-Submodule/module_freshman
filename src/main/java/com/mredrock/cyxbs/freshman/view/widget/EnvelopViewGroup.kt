@@ -2,9 +2,7 @@ package com.mredrock.cyxbs.freshman.view.widget
 
 import android.content.Context
 import android.util.AttributeSet
-import android.util.Log
 import android.view.ViewGroup
-import com.mredrock.cyxbs.common.utils.LogUtils
 
 /**
  * Create by roger

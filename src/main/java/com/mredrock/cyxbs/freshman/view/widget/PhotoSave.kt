@@ -5,10 +5,8 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.widget.Toast
 import com.mredrock.cyxbs.common.BaseApp
-import com.mredrock.cyxbs.common.utils.encrypt.md5Encoding
 import java.io.File
 import java.io.FileOutputStream
-import java.util.*
 
 /**
  * Create by roger

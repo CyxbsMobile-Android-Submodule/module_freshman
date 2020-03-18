@@ -3,8 +3,6 @@ package com.mredrock.cyxbs.freshman.view.adapter
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
-import android.media.Image
-import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,16 +12,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.text.HtmlCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.mredrock.cyxbs.common.BaseApp
-import com.mredrock.cyxbs.common.utils.LogUtils
 import com.mredrock.cyxbs.freshman.R
-import com.mredrock.cyxbs.freshman.bean.BusRoute
 import com.mredrock.cyxbs.freshman.bean.CampusAddress
-import com.mredrock.cyxbs.freshman.bean.GroupData
 import com.mredrock.cyxbs.freshman.bean.Route
-import kotlinx.android.synthetic.main.freshman_recycle_item_bus_common.view.*
 import org.jetbrains.anko.find
-import java.lang.StringBuilder
 
 /**
  * Create by roger

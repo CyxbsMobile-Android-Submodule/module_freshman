@@ -9,7 +9,6 @@ import android.view.View
 import androidx.annotation.ColorInt
 import com.mredrock.cyxbs.freshman.R
 import org.jetbrains.anko.dip
-import java.lang.RuntimeException
 import kotlin.math.min
 
 /**

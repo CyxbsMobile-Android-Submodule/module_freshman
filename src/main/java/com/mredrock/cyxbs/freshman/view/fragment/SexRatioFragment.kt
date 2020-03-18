@@ -16,8 +16,6 @@ import com.mredrock.cyxbs.freshman.util.event.SexRatioEvent
 import com.mredrock.cyxbs.freshman.view.widget.PieChart
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
-import kotlin.math.max
-import kotlin.math.min
 
 /**
  * Create by yuanbing

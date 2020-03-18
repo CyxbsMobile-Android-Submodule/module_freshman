@@ -15,7 +15,6 @@ import com.mredrock.cyxbs.freshman.config.BUNDLE_DATA
 import com.mredrock.cyxbs.freshman.config.BUNDLE_NAME
 import com.mredrock.cyxbs.freshman.util.event.OnCopyQQNumberSuccessEvent
 import org.greenrobot.eventbus.EventBus
-import org.jetbrains.anko.support.v4.act
 
 /**
  * Create by yuanbing
