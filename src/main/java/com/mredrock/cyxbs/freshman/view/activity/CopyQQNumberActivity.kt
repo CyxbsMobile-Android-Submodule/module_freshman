@@ -2,6 +2,7 @@ package com.mredrock.cyxbs.freshman.view.activity
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.mredrock.cyxbs.common.mark.EventBusLifecycleSubscriber
 import com.mredrock.cyxbs.common.ui.BaseActivity
 import com.mredrock.cyxbs.freshman.R
 import com.mredrock.cyxbs.freshman.config.BUNDLE_DATA
@@ -19,7 +20,7 @@ import org.greenrobot.eventbus.ThreadMode
  * Create by yuanbing
  * on 2019/8/4
  */
-class CopyQQNumberActivity : BaseActivity() {
+class CopyQQNumberActivity : BaseActivity(), EventBusLifecycleSubscriber {
     override val isFragmentActivity: Boolean
         get() = true
 

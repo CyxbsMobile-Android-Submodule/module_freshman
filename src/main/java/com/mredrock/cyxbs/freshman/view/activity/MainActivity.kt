@@ -10,6 +10,7 @@ import com.alibaba.android.arouter.facade.annotation.Route
 import com.mredrock.cyxbs.common.BaseApp.Companion.context
 import com.mredrock.cyxbs.common.config.FRESHMAN_ENTRY
 import com.mredrock.cyxbs.common.event.GoToDiscoverEvent
+import com.mredrock.cyxbs.common.mark.EventBusLifecycleSubscriber
 import com.mredrock.cyxbs.common.ui.BaseActivity
 import com.mredrock.cyxbs.common.utils.extensions.dp2px
 import com.mredrock.cyxbs.common.utils.extensions.editor
@@ -26,7 +27,7 @@ import org.greenrobot.eventbus.ThreadMode
 import org.jetbrains.anko.find
 
 @Route(path = FRESHMAN_ENTRY)
-class MainActivity : BaseActivity() {
+class MainActivity : BaseActivity() , EventBusLifecycleSubscriber {
 
     override val isFragmentActivity: Boolean
         get() = false

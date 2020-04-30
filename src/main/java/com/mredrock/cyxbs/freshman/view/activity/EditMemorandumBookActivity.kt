@@ -5,6 +5,7 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.mredrock.cyxbs.common.mark.EventBusLifecycleSubscriber
 import com.mredrock.cyxbs.freshman.R
 import com.mredrock.cyxbs.freshman.base.BaseActivity
 import com.mredrock.cyxbs.freshman.interfaces.ParseBean
@@ -26,7 +27,7 @@ import org.greenrobot.eventbus.ThreadMode
  */
 class EditMemorandumBookActivity :
         BaseActivity<IActivityEditMemorandumBookView, IActivityEditMemorandumBookPresenter,
-                IActivityEditMemorandumBookModel>(), IActivityEditMemorandumBookView {
+                IActivityEditMemorandumBookModel>(), IActivityEditMemorandumBookView, EventBusLifecycleSubscriber {
     override val isFragmentActivity: Boolean
         get() = false
     private val mSelectedMemorandumBookItem = mutableListOf<String>()

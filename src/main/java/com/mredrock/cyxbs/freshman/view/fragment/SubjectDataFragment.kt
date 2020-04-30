@@ -2,6 +2,7 @@ package com.mredrock.cyxbs.freshman.view.fragment
 
 import android.os.Bundle
 import android.view.View
+import com.mredrock.cyxbs.common.mark.EventBusLifecycleSubscriber
 import com.mredrock.cyxbs.common.utils.extensions.gone
 import com.mredrock.cyxbs.common.utils.extensions.visible
 import com.mredrock.cyxbs.freshman.R
@@ -21,7 +22,7 @@ import org.greenrobot.eventbus.ThreadMode
  * on 2019/8/5
  */
 class SubjectDataFragment(val college: String) : BaseFragment<IFragmentSubjectDataView,
-        IFragmentSubjectDataPresenter, IFragmentSubjectDataModel>(), IFragmentSubjectDataView {
+        IFragmentSubjectDataPresenter, IFragmentSubjectDataModel>(), IFragmentSubjectDataView , EventBusLifecycleSubscriber {
     private lateinit var mHistogram: Histogram
 
     override fun onCreateView(view: View, savedInstanceState: Bundle?) {
